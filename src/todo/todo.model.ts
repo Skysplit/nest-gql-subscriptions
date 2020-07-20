@@ -1,6 +1,5 @@
 import { ObjectType, Field, Int, GraphQLISODateTime } from '@nestjs/graphql';
 import { Column, DataType, Table, Model } from 'sequelize-typescript';
-import { literal } from 'sequelize';
 import { GraphQLBoolean } from 'graphql';
 
 @ObjectType()
